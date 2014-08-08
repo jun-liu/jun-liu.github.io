@@ -34,11 +34,6 @@ description: "非职业程序员"
   </article>
   {% endfor %}
 
-  {% if site.JB.comments.provider == 'duoshuo' %}
-    {% assign duoshuo = 'jsonly' %}
-    {% include JB/comments-providers/duoshuo %}
-  {% endif %}
-
 </section>
 
 <!-- Pagination Links -->
@@ -46,7 +41,7 @@ description: "非职业程序员"
   <ul>
     <!-- First Page -->
     {% if paginator.previous_page %}
-    <li><a href="/index.html">&laquo;&laquo;</a></li>
+    <li><a href="/">&laquo;&laquo;</a></li>
     {% else %}
     <li class="disabled"><a href="#">&laquo;&laquo;</a></li>
     {% endif %}
@@ -55,7 +50,7 @@ description: "非职业程序员"
     {% if paginator.previous_page %}
     <li>
       {% if paginator.previous_page == 1 %}
-      <a href="/index.html">&laquo;</a>
+      <a href="/">&laquo;</a>
       {% else %}
       <a href="/page{{ paginator.previous_page }}">&laquo;</a>
       {% endif %}
