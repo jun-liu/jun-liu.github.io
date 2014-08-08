@@ -83,7 +83,7 @@ JB :
     provider : duoshuo
     duoshuo :
       short_name : 3fans
-	disqus :
+    disqus :
       short_name : junliu
     livefyre :
       site_id : 123
