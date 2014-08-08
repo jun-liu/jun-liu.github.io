@@ -80,8 +80,10 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
-    disqus :
+    provider : duoshuo
+    duoshuo :
+      short_name : 3fans
+	disqus :
       short_name : junliu
     livefyre :
       site_id : 123
