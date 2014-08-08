@@ -9,6 +9,12 @@ tags: [Jekyll Bootstrap, GitHub Pages]
 
 快速构建一个自己的网站，猛击[这里][jekyllbootstrap].
 
+## 配置首页
+
+### 分页
+[JekyllBootstrap][jekyllbootstrap]默认的首页是`index.md`
+但是如果需要分页效果的话需要使用的是`index.html`, 并且修改`_config.yml`, 添加一个配置项`paginate: 10`
+
 ## 个性化定制
 
 ### 评论系统

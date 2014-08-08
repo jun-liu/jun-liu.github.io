@@ -41,7 +41,7 @@ description: "非职业程序员"
   <ul>
     <!-- First Page -->
     {% if paginator.previous_page %}
-    <li><a href="/">&laquo;&laquo;</a></li>
+    <li><a href="/index.html">&laquo;&laquo;</a></li>
     {% else %}
     <li class="disabled"><a href="#">&laquo;&laquo;</a></li>
     {% endif %}
@@ -50,7 +50,7 @@ description: "非职业程序员"
     {% if paginator.previous_page %}
     <li>
       {% if paginator.previous_page == 1 %}
-      <a href="/">&laquo;</a>
+      <a href="/index.html">&laquo;</a>
       {% else %}
       <a href="/page{{ paginator.previous_page }}">&laquo;</a>
       {% endif %}
