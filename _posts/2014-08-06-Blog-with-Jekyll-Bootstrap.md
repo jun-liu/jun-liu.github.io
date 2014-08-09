@@ -10,8 +10,9 @@ tags: [Jekyll Bootstrap, GitHub Pages]
 快速构建一个自己的网站，猛击[这里][jekyllbootstrap].
 
 ## 页面配置
+
 ### 首页
-首页一般是显示最近的1-N篇博文，可只显示摘要：
+首页一般是显示最近的1-N篇博文，文章可只显示摘要：
 
     {% highlight ruby %}
     {% for post in paginator.posts %}
