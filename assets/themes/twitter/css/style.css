@@ -43,7 +43,14 @@
 .tag_box.inline li {
   float: left; }
 
-
+.tag_box a {
+  padding: 3px 6px;
+  margin: 0px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
 
 .tag_box a span {
   vertical-align: super;
