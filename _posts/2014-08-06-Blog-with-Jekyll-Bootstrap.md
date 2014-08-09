@@ -9,7 +9,24 @@ tags: [Jekyll Bootstrap, GitHub Pages]
 
 快速构建一个自己的网站，猛击[这里][jekyllbootstrap].
 
-## 配置首页
+## 页面配置
+### 首页
+首页一般是显示最近的1-N篇博文，可只显示摘要：
+
+    {% highlight ruby %}
+    {% for post in paginator.posts %}
+    <article class="nested">
+      ...
+      <section>
+        <p>
+          {{ post.content | strip_html | truncate:300 }}
+        </p>
+        <a class="button-link" href="{{ post.url }}" title="查看全文">read more</a>
+      </section>
+      ...
+    </article>
+    {% endfor %}
+    {% endhighlight %}
 
 ### 分页
 [JekyllBootstrap][jekyllbootstrap]默认的首页是`index.md`
