@@ -44,7 +44,7 @@
   float: left; }
 
 .tag_box a {
-  padding: 3px 6px;
+  padding: 3px 3px;
   margin: 2px;
   background: #eee;
   color: #555;
@@ -81,7 +81,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   text-shadow: 0 1px 1px #b3b3b3;
 }
-
+a {
+  color: #ae432e;
+  outline: none;
+  text-decoration: none;
+}
+a:hover { color: #036; text-decoration: underline; }
+a:hover, a:active { outline: none; }
 
 /*  Articles  */
 article {
