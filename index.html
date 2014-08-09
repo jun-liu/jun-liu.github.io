@@ -34,6 +34,11 @@ description: "非职业程序员"
   </article>
   {% endfor %}
 
+  {% if site.JB.comments.provider == 'duoshuo' %}
+    {% assign duoshuo = 'jsonly' %}
+    {% include JB/comments-providers/duoshuo %}
+  {% endif %}
+  
 </section>
 
 <!-- Pagination Links -->
