@@ -14,7 +14,7 @@ tags: [Jekyll Bootstrap, GitHub Pages]
 ### 首页
 首页一般是显示最近的1-N篇博文，文章可只显示摘要：
 
-    {% highlight ruby %}
+{% highlight ruby %}
     <article class="nested">
       <section>
         <p>
@@ -23,7 +23,7 @@ tags: [Jekyll Bootstrap, GitHub Pages]
         <a class="button-link" href="{{ post.url }}" title="查看全文">read more</a>
       </section>
     </article>
-    {% endhighlight %}
+{% endhighlight %}
 
 ### 分页
 [JekyllBootstrap][jekyllbootstrap]默认的首页是`index.md`
