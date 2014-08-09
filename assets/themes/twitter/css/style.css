@@ -64,6 +64,30 @@
   border: 1px solid #4c964d;
   color: #FFF; }
 
+/*  General Settings  */
+body {
+  background-image: url(../img/bgs/bg_body.png);
+  font-family: Verdana, Arial, sans-serif, "Hiragino Sans GB", "Microsoft YaHei";
+  font-size: 13px;
+  *font-size: small;
+  zoom: 1;
+}
+select, input, textarea, button { font: 99% sans-serif; }
+strong, th { font-weight: bold; }
+em { font-style: italic; }
+ul, ol { margin: 0 0 1em 2.5em; }
+ol { list-style-type: decimal; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  text-shadow: 0 1px 1px #b3b3b3;
+}
+a {
+  color: #ae432e;
+  outline: none;
+  text-decoration: none;
+}
+a:hover { color: #036; text-decoration: underline; }
+a:hover, a:active { outline: none; }
 
 /*  Articles  */
 article {
