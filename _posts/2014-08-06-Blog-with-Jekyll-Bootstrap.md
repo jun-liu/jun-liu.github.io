@@ -15,14 +15,7 @@ tags: [Jekyll Bootstrap, GitHub Pages]
 首页一般是显示最近的1-N篇博文，文章可只显示摘要：
 
 {% highlight ruby %}
-    <article class="nested">
-      <section>
-        <p>
-          {{ post.content | strip_html | truncate:300 }}
-        </p>
-        <a class="button-link" href="{{ post.url }}" title="查看全文">read more</a>
-      </section>
-    </article>
+    post.content | strip_html | truncate:300 
 {% endhighlight %}
 
 ### 分页
